@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta name="google-site-verification" content="ftFOlJETX-2KNjaPh8W6s8lhigItRuu9fOmjHZZ0nY0" />
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Synthesizing cloth wrinkles by CNN-based geometry image superresolution</title>
+</head>
+<style type="text/css">
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  audio {
+    width: 100%;
+  }
+
+  thead>tr>th:first-child {
+    width: 96px;
+  }
+
+  @media (max-width: 767px) {
+    .big-screen {
+      display: none;
+    }
+  }
+
+  @media (min-width: 767px) {
+    .small-screen {
+      display: none;
+    }
+  }
+</style>
+
+<body>
+  <header class="header">
+    <div class="jumbotron bg-secondary text-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12">
+            <h1><a class="text-light">
+				Synthesizing cloth wrinkles by CNN-based geometry image superresolution <br> (Accepted by CAVW2018)</a></h1>
+            <p>
+              <div class="row">
+                <div class="col-md col-sm-12"><a class="text-light">Lan Chen<sup>1,2</sup>, Juntao Ye<sup>1</sup>, Liguo Jiang<sup>1,2</sup>, Chengcheng Ma<sup>1,2</sup>, Zhanglin Cheng<sup>3</sup>, Xiaopeng Zhang<sup>1</sup></a> </div>
+              </div>
+            </p>
+			<p><a class="text-light"><sup>1</sup>Institute of Automation, Chinese Academy of Sciences, Beijing, China<br>
+                <sup>2</sup>University of Chinese Academy of Sciences, Beijing, China<br>
+				<sup>3</sup>VisuCA Key Laboratory, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China
+				</p></a>
+				
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row" id="average">
+        <div class="col">
+          <h2>Proposed Method</h2>
+          <div>
+			<font size="5">
+            <p style="text-align:justify; text-justify:inter-ideograph;"> 
+            We propose a novel deep learning-based method, called mesh superresolution,
+			to enrich low-resolution (LR) cloth meshes with wrinkles. A pair of low and
+			high-resolution (HR) meshes are simulated, with the simulation of the HR mesh
+			tracks with that of the LR mesh. The frame data are converted into geometry
+			images and used as a training data set. A residual network, called SR residual
+			network, is employed to train an image synthesizer that superresolves an LR
+			image into an HR one. Once the HR image is converted back to an HR mesh, it
+			is abundant in wrinkles compared with its coarse counterpart. The synthesizing
+			is very efficient and is 24× faster than a full HR simulation. We demonstrate the
+			performances of mesh superresolution with various simulation scenes.
+            </p>
+			</font>
+			
+			<div align="center">
+				<video width="960" controls>
+				  <source src="papers/casa.mp4" type="video/mp4">
+				</video>
+			</div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</br>
+	</br>
+	</br>
+	</br>
+</body>
+
+</html>
